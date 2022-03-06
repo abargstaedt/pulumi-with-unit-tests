@@ -1,0 +1,6 @@
+secretsprovider: awskms://884592f5-29fa-46e4-82fa-e6c3e30dce71?region=eu-central-1
+encryptedkey: AQICAHiOOR2w0eTuoZEzKaiUcMLTytXehqGuKDhteseUu/KgdwHo3frw0lbaPns+yCFY1HbbAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMqCIJNt988v0AN55vAgEQgDujCrwSHnMCgSK6vLlbE/rG8iPU+agEKnN1MYPUdhMya6pDH/e1SXuxc8iohMhERkaAeqNdZfWgOJMWwA==
+config:
+  aws:region: eu-central-1
+  example:docdb-cluster-instance-count: "2"
+  example:docdb-master-user-name: mdm_db_master_admin

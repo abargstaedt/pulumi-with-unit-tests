@@ -1,0 +1,27 @@
+{
+  "name": "example",
+  "scripts": {
+    "format": "prettier --write --ignore-unknown .",
+    "lint": "eslint \"src/**/*.ts\" --fix",
+    "predeploy": "npm run build --prefix ..",
+    "deploy": "pulumi up",
+    "preview": "npm run predeploy && pulumi preview",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/node": "^14",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2"
+  },
+  "dependencies": {
+    "@pulumi/aws-apigateway": "^0.0.5",
+    "@pulumi/aws": "^4.0.0",
+    "@pulumi/awsx": "^0.30.0",
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/random": "^4.3.1"
+  }
+}
